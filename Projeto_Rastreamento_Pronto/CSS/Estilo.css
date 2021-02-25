@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    
+  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px black;
+}
+
+.logo{
+    font-size: 2rem;
+    margin-left: 25px;
+}
+
+.logo a{
+    color: #2bc866;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu ul{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.as{
+   
+    padding:10px ;
+    margin-left: 15px;
+    color:#2bc866;
+}
+
+
+.as:hover{
+    text-decoration: underline;    
+}
+
+.cd{
+    border: 1px solid white;
+    margin-left: 8px;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    background-color: #2bc866;
+}
+
+.cd:hover{
+    background-color:white;
+    color: #2bc866;
+    border: 1px solid #2bc866;
+    transition: 0.8s;
+
+}
+
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.banner{
+    background-color: #2bc866;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+article{
+    margin-right: 25px;
+  
+}
+
+.btn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: #2bc866;
+    background-color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border: 1px solid white;
+}
+
+.btn:hover{
+    background-color:#2bc866;
+    color: white;
+    transition: 0.8s;
+    
+}
+
+.banner hr{
+
+
+    width: 150px;
+    height: 3px;
+    border: 1px soli white;
+    background-color: white;
+}
+
+.banner h1{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 5px;
+    
+}
+
+.banner p{
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: white;
+}
+
+.imagem img{
+
+   margin-left: 6rem;
+   width: 450px;
+   height: 250px;
+   border-radius: 10px;
+   box-shadow: 0px 2px 5px black;
+}
+
+@media (min-width:320px) and (max-width:1000px){
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+
+    .imagem img{
+        width: 250px;
+    }
+
+    article{
+        margin-top:10px;
+    }
+
+    .banner hr{
+       margin:0 auto;
+    }
+
+    .imagem img{
+        margin-left:0;
+    }
+
+    nav .cd{
+        background-color: white;
+        padding:0px ;
+        margin-left: 15px;
+        color:#2bc866;
+    }
+     
+        
+    }
+
+.ras{
+   
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cx-ra{
+    box-shadow: 0px 2px 5px black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -100px;
+    text-align: center;
+    min-width:800px;
+    height: 200px;
+}
+
+.cx-ra h2{
+    margin-bottom: 5px;
+    
+}
+
+.inp{
+    margin-top: 5px;
+    padding: 5px 10px;
+    width: 250px;
+    border-radius: 5px;
+    height: 40px;
+}
+.btn2{
+color: white;
+background-color:#2bc866;
+padding: 5px 10px;
+height: 40px;
+border-radius: 5px;
+cursor: pointer;
+display: block;
+margin:10px auto;
+border: 1px solid #2bc866;
+}
+
+.btn2:hover{
+    background-color: white;
+    color:#2bc866;
+    transition: 0.8s;
+}
+
+.mg{
+    margin-top: 25px;
+}
